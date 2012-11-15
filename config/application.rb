@@ -64,5 +64,9 @@ module RailsTemplate
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    config.generators do |g|
+      g.form_builder :formtastic
+      g.template_engine :haml
+    end
   end
 end

@@ -17,9 +17,28 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem "therubyracer"
+  gem "less-rails"
+  gem "twitter-bootstrap-rails", "2.1.3"
 end
 
 gem 'jquery-rails'
+gem 'mongoid'
+
+gem 'haml'
+gem 'haml-rails'
+gem 'therubyracer'
+gem 'formtastic'
+gem "formtastic-bootstrap"
+gem 'rails-backbone'
+
+gem 'devise'
+
+gem 'inherited_resources'
+gem 'has_scope'
+gem 'kaminari'
+
+gem 'rails_admin'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
